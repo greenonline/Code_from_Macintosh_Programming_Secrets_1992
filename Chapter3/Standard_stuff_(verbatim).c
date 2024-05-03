@@ -430,7 +430,7 @@ void AdjustMenus(){
 
     HandleMenuCommand
 
-    Tis is called when an item is chosen from the menu bar (after calling
+    This is called when an item is chosen from the menu bar (after calling
     MenuSelect or MenuKey). It performs the right operation for each command.
     It is good to have both the result of MenuSelect and MenuKey go to one
     routine like this to keep everything organised.
@@ -594,8 +594,8 @@ Boolean IsDAWindow(WindowPtr window){
 
     IsDialogWindow
 
-   Check to see if a window is a dialog window. We can determine this by
-   checking to see if the windowKind field is equal to dialogKind.
+    Check to see if a window is a dialog window. We can determine this by
+    checking to see if the windowKind field is equal to dialogKind.
 
 ********************************************************************************/
 Boolean IsDialogWindow(WindowPtr window)
