@@ -22,7 +22,7 @@ void HandleMouseDown(EventRecord *event);
 void HandleMultiFinder(EventRecord *event);
 void HandleUpdate(EventRecord *event);
 void AdjustMenus(void);
-void HandleMenuCommand(menuResult);
+void HandleMenuCommand(long menuResult);
 
 /* Utility routines */
 
