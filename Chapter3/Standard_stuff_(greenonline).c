@@ -548,7 +548,7 @@ void HandleMenuCommand(long menuResult){
     case mEdit:
       switch (menuItem){
         /* Call SystemEdit for DA editing and MultiFinder */
-        /* since we don't do any editing *.
+        /* since we don't do any editing */
         case iUndo:
         case iCut:
         case iCopy:
@@ -603,9 +603,9 @@ void DeathAlert(short errNumber)
   Str255 theMessage;
 
   SetCursor(&qd.arrow);
-  GetIndString(&theMessage, rErrorStrings, errNumber);
-  /*ParamText(&theMessage, nil, nil, nil);*/
-  ParamText(&theMessage, NIL, NIL, NIL);
+  GetIndString(theMessage, rErrorStrings, errNumber);
+  /*ParamText(theMessage, nil, nil, nil);*/
+  ParamText(theMessage, NIL, NIL, NIL);
   /*itemHit = StopAlert(rErrorAlert, NIL);*/
   itemHit = StopAlert(rErrorAlert, nil);
   ExitToShell();
