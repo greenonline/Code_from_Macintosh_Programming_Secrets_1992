@@ -15,7 +15,7 @@ Chapters:
 - Chapter 9 - Standalone
 - Chapter 10 - Various Adventures
 
-Note: Two directories are provided, both of which contain the same source code. One uses line feeds (LF) (for reading on OS X), the other uses carriage returns (CR) for Macintosh.
+Note: Two directories are provided, both of which contain the same source code. One (`with_LF/`) contains source files using line feeds (LF) for reading on macOS/OS X, the other (`with_CR/`) uses carriage returns (CR) for Macintosh.
 
 ## Note on `StandardStuff.c`
 
